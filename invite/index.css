@@ -1,3 +1,66 @@
 body {
   margin: 0;
+  background-color: #3B3A3A;
+}
+
+.page{
+  display: flex;
+  justify-content: center;
+}
+
+.page-col{
+  display: flex;
+  flex-direction: column;
+}
+
+.row1{
+ display: flex;
+ margin-top: 150px;
+}
+
+.welcome{
+  font-size: 100px;
+  font-family: 'Athiti', sans-serif;
+  color: #5481A4;
+}
+
+.top{
+  font-size: 200px;
+  font-family:'Rationale', sans-serif;
+  color: #5481A4;
+  text-shadow: 8px 2px 0px #AFBABF;
+}
+
+.login{
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  margin-top: 60px;
+}
+
+.pass-box{
+  height: 51px;
+  width: 574px;
+  background-color: #CCCDC9;
+  font-size: 30px;
+  font-family: 'Athiti', sans-serif;
+}
+
+.pass-box::placeholder{
+  color: #72626D;
+}
+
+.enter-pass{
+  display: flex;
+  justify-content: center;
+  font-size: 60px;
+  font-family: 'Athiti', sans-serif;
+  color: #C46D65; 
+  margin-top: 40px;
+}
+
+.arrow{
+  width: 57px;
+  height: 57px;
+  margin-left: 50px;
 }
