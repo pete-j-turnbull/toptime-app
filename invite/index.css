@@ -60,7 +60,8 @@ body {
 }
 
 .arrow{
+  cursor: pointer;
   width: 57px;
   height: 57px;
   margin-left: 50px;
-}
+]
